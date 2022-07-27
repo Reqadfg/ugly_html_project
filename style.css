@@ -1,0 +1,46 @@
+body {
+background-color: black; 
+text-align: center;
+color: white; 
+font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    padding: 30px;
+    color: yellow;
+    background-color: darkblue;
+}
+
+#bulbasaur_container {
+    background-color: rgb(121, 157, 121);
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+#charmander_container {
+   background-color: rgb(188, 163, 117);
+   border: 3px solid white;
+    border-radius: 15px;
+}
+
+#squirtle_container {
+    background-color: rgb(119, 161, 190);
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+#squirtle_container:hover {
+    opacity: 50%;
+}
+
+#charmander_container:hover {
+    opacity: 50%;
+}
+
+#bulbasaur_container:hover {
+    opacity: 50%;
+}
+
+ul {
+    text-align: left;
+}
